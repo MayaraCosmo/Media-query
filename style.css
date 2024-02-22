@@ -1,0 +1,79 @@
+body {
+text-decoration: none;
+margin: 0;
+padding: 0;
+
+}
+
+@media only screen and (min-width:400px) and (max-width:700px) {
+
+.logo {
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#fundo {
+    height: 120vh;
+    text-align: center;
+    justify-content: center;
+    background-color: #c8b6ff;
+
+}
+
+.fomulario {
+    margin-top: 6%;
+    padding: 2%;
+    height: 90%;
+    width: 65%;
+    margin-left: 15%;
+    background-color: white;
+    border-radius: 1%;
+
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+
+#label {
+    position: absolute;
+    right: 60%;
+    gap: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+
+input {
+height: 60%;
+width: 50%;
+background-color: #b8c0ff;
+margin-bottom: 30px;
+padding: 10px;
+border: none;
+border-radius: 2%;
+}
+
+button {
+    padding: 10px;
+    margin: 40px;
+    background-color: #ff0054;
+    border-radius: 20px;
+    border: none;
+    height: 300%;
+    width: 80%;
+
+}
+
+
+
+}
+
+
